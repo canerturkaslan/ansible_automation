@@ -1,0 +1,15 @@
+ansible==2.8.5
+asn1crypto==0.24.0
+cffi==1.12.3
+cryptography==2.7
+Django==2.2.5
+future==0.17.1
+Jinja2==2.10.1
+MarkupSafe==1.1.1
+psycopg2==2.8.3
+pycparser==2.19
+pytz==2019.2
+PyYAML==5.1.2
+six==1.12.0
+sqlparse==0.3.0
+textfsm==1.1.0
