@@ -1,0 +1,7 @@
+- hosts: localhost
+  connection: local
+  gather_facts: false
+  tasks:
+    - name: testing printers
+      snmp_facts: host=127.0.0.1 version=v2 community=public
+    - debug: var=ansible_facts
