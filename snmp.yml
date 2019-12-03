@@ -2,6 +2,6 @@
   connection: local
   gather_facts: false
   tasks:
-    - name: testing printers
+    - name: testing virtual machine ubuntu
       snmp_facts: host=127.0.0.1 version=v2 community=public
     - debug: var=ansible_facts
